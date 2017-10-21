@@ -1,0 +1,12 @@
+{
+  "name": "crashtest",
+  "type": "project",
+  "require": {
+    "google/protobuf": "v3.5.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "": ["src/", "gen-proto/"]
+    }
+  }
+}
